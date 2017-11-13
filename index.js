@@ -10,9 +10,8 @@ var i = 0
 while (i < katzDeli.length){
   i++
 }
-if {
-  (katzDeli.length===0)
+if (katzDeli.length===0){
   return ("the line is empty")
-}else 
+}else
   return (`currently serving ${katzDeli.shift ()}`)
 }
