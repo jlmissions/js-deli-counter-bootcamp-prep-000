@@ -13,5 +13,5 @@ while (i < katzDeli.length){
 if (katzDeli.length===0){
   return ("the line is empty")
 }else
-  return (`currently serving ${katzDeli.shift ()}`)
+  return (`Currently serving ${katzDeli.shift ()}.`)
 }
